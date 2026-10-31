@@ -2,6 +2,14 @@
 
 CampusNotes is a Node.js and Express application for sharing and reviewing study materials.
 
+The admin portal provides student and material management, approval and rejection workflows, PDF previews, filters, subject/semester summaries, and responsive light/dark themes. Dashboard reports use SQLite records for registrations, uploads, review outcomes, and student downloads. Download tracking begins with downloads made through the student portal.
+
+The student portal includes account settings for profile information, password changes, notification and appearance preferences, privacy controls, study defaults, download history, support reports, and account deletion. Student settings are scoped to the authenticated student account.
+
+Teacher-submitted notes and lecture materials are published immediately. Student uploads remain pending until an administrator reviews and approves them.
+
+The teacher portal includes assigned-subject coverage, material uploads and management, approval history, download engagement, notifications, profile editing, and account preferences. Revising a teacher's existing material sends it back to the administrator for review. Support reports are stored but are not automatically routed to a support inbox; email delivery, cross-device session listing, and platform announcements are not currently available.
+
 ## Requirements
 
 - Node.js 20 or later
