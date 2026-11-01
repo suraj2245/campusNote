@@ -27,6 +27,10 @@
   box-sizing: border-box;
 }
 
+[hidden] {
+  display: none !important;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -2150,6 +2154,7 @@ html:has(.student-shell[data-font-size="large"]) { font-size: 17px; }
 .student-shell[data-theme="dark"] .student-data-table th { background: #202f44; color: #b2c1d6; }
 .student-shell[data-theme="dark"] .student-data-table td { border-color: #2c3c53; color: #dce5f1; }
 .student-shell[data-theme="dark"] .student-info-note { border-color: #2d4568; background: #1b2f4a; color: #b7cbed; }
+.student-shell[data-theme="dark"] .student-error { border-color: #5a2e32; background: #2b1d22; color: #ffb4af; }
 .student-shell[data-theme="dark"] .material-card,
 .student-shell[data-theme="dark"] .student-note-card { background: #19283d; color: #e1e9f4; }
 .student-shell[data-theme="dark"] .material-card .material-top,
